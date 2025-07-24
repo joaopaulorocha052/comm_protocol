@@ -1,10 +1,7 @@
-# Teste inicial
+# Protocolo de Confirmação
 
-A ideia é fazer duas placas rp2040 se comunicarem da maneira mais simples possível
-
-Esse código esta baseado no projeto "ping-pong" na pagina de exempos do waveshare - https://www.waveshare.com/wiki/RP2040-LoRa.
-
-A pasta inteira - https://files.waveshare.com/wiki/RP2040-LoRa/RP2040-LoRa-TestCode.zip
+O projeto consiste em implementar uma solução para a detecção de falhas de funcionamento e curtos em cercas elétricas rurais, utilizando microcontroladores rp2040-LoRa. 
+São utilizados 2 microcontroladores, sendo um o Transmissor(TX), que lê a tensão da cerca e informa outro, Receptor(RX) por meio de comunicação utilizando LoRa.
 
 
 ## Preparar o projeto
@@ -15,13 +12,35 @@ cd build
 cmake ../ -G Ninja
 ```
 
-## Compilar sem vscode:
+## Para compilar o projeto
 
 ```
 cd build
-ninja
+make
 ```
 
+## Para carregar o código nos controladores
+
+```
+cd pico-transmitter
+
+```
+ou
+
+```
+cd pico-receiver
+```
+Após isso, é preciso copiar os arquivos para o microcontrolador. Mas antes, conecte o micro controlador ao computador segurando o botão de boot. Ao soltar o botão, ele se conectará como unidade de memória.
+
+```
+cp pico-transmitter.uf2 /media/<seu-usuario>/<nome-da-uniade-de-memoria-conectada>
+```
+
+ou
+
+```
+cp pico-receiver.uf2 /media/<seu-usuario>/<nome-da-uniade-de-memoria-conectada>
+```
 ## Referencias:
 
 - pico-sdk: https://github.com/raspberrypi/pico-sdk
