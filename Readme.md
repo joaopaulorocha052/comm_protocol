@@ -5,6 +5,15 @@ São utilizados 2 microcontroladores, sendo um o Transmissor(TX), que lê a tens
 
 
 ## Preparar o projeto
+Em uma pasta externa ao projeto, clone o pico sdk.
+
+```
+git clone https://github.com/raspberrypi/pico-sdk.git --branch master
+cd pico-sdk
+git submodule update --init
+```
+
+Então prepare o build
 
 ```
 mkdir build
@@ -23,7 +32,6 @@ make
 
 ```
 cd pico-transmitter
-
 ```
 ou
 
