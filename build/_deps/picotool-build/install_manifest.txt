@@ -1,5 +1,0 @@
-/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool/picotool
-/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool/picotoolTargets.cmake
-/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool/picotoolTargets-release.cmake
-/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool/picotoolConfig.cmake
-/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool/picotoolConfigVersion.cmake
