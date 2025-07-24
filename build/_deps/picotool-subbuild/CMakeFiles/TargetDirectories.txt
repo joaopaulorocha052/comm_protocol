@@ -1,0 +1,3 @@
+/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/home/jpaixao/Documents/LoRa-project/LoRa-Project/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
