@@ -89,12 +89,6 @@ O sistema implementa um **protocolo de confirmação** para garantir a entrega c
 
 ---
 
-## 📦 Estrutura do Repositório
-
-*(Adicionar aqui a lista de pastas e arquivos, se necessário)*
-
----
-
 ## 🖼 Cartilha de Uso
 
 ![Cartilha de Uso](docs/images/cartilha_uso.png)
