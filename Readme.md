@@ -89,6 +89,38 @@ O sistema implementa um **protocolo de confirmação** para garantir a entrega c
 
 ---
 
+## 📦 Estrutura do Repositório
+
+📦 Projeto
+├── 📂 comm_protocol/ → Código-fonte do transmissor e receptor (C/C++ com Pico SDK)
+└── 📂 docs/ → Diagramas, imagens, documentação e manuais
+
+---
+
+## 🚀 Como Compilar
+
+```bash
+# Clonar o Pico SDK
+git clone https://github.com/raspberrypi/pico-sdk --branch master
+cd pico-sdk && git submodule update --init
+export PICO_SDK_PATH=../../pico-sdk
+
+# Compilar o projeto
+mkdir build && cd build
+cmake .. -G Ninja
+ninja
+```
+
+---
+
+## 📥 Upload para o RP2040
+
+  Segure o botão BOOTSEL ao conectar o Pico.
+
+  Copie o .uf2 gerado para a unidade montada.
+
+---
+
 ## 🖼 Cartilha de Uso
 
 ![Cartilha de Uso](docs/images/cartilha_uso.png)
