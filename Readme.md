@@ -93,6 +93,7 @@ O sistema implementa um **protocolo de confirmação** para garantir a entrega c
 
 📦 Projeto
 ├── 📂 comm_protocol/ → Código-fonte do transmissor e receptor (C/C++ com Pico SDK)
+
 └── 📂 docs/ → Diagramas, imagens, documentação e manuais
 
 ---
